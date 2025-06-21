@@ -120,3 +120,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+@utility scrollbar-hide {
+  /* 스크롤바 숨기기 */
+  /* Chrome, Safari */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Firefox */
+  &* {
+    scrollbar-width: none;
+  }
+  
+  /* IE and Edge */
+  &* {
+    -ms-overflow-style: none;
+  }
+}
