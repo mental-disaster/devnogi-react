@@ -83,11 +83,11 @@ const AuctionCategory = ({
   onToggleExpand: (id: string) => void;
 }) => {
   return (
-    <div className="w-48 flex-shrink-0 flex flex-col">
+    <div className="flex flex-1 flex-col h-full">
       <div className="text-center border border-gray-600 rounded-xs">
         카테고리
       </div>
-      <div className="flex-1 overflow-y-auto p-1">
+      <div className="flex-1 overflow-y-auto p-1 overflow-auto">
         <ul>
           {itemCategories.map((category) => (
             <RecursiveCategoryItem

@@ -83,18 +83,25 @@ export default function Page() {
   }, [selectedId]);
 
   return (
-    <div className="h-screen overflow-hidden select-none flex flex-col">
+    <div className="select-none flex flex-col h-full">
       <div className="flex-shrink-0 px-4 py-2">
-        <AuctionSearch path={categoryPath} />
-      </div>
-      <div className="flex flex-1 min-h-0 px-4 py-2">
-        <AuctionCategory
-          selectedId={selectedId}
-          onSelect={handleCategorySelect}
-          expandedIds={expandedIds}
-          onToggleExpand={handleToggleExpand}
+        <AuctionSearch
+          path={categoryPath}
+          onCategorySelect={handleCategorySelect}
         />
-        <AuctionList items={mockItems} />
+      </div>
+      <div className="flex px-4 py-2">
+        <div className="w-44 flex-shrink-0 overflow-auto lg:flex hidden">
+          <AuctionCategory
+            selectedId={selectedId}
+            onSelect={handleCategorySelect}
+            expandedIds={expandedIds}
+            onToggleExpand={handleToggleExpand}
+          />
+        </div>
+        <div className="flex-1">
+          <AuctionList items={mockItems} />
+        </div>
       </div>
     </div>
   );
