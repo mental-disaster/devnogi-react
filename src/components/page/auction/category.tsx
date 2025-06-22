@@ -87,7 +87,7 @@ const AuctionCategory = ({
       <div className="text-center border border-gray-600 rounded-xs">
         카테고리
       </div>
-      <div className="flex-1 overflow-y-auto p-1 overflow-auto">
+      <div className="flex-1 p-1">
         <ul>
           {itemCategories.map((category) => (
             <RecursiveCategoryItem
