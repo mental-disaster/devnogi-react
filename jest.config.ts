@@ -11,7 +11,7 @@ const config: Config = {
   coverageProvider: "v8",
   testEnvironment: "jsdom",
   // Add more setup options before each test is run
-  // setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
   // 상대 경로 매핑
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
