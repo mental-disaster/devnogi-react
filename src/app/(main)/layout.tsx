@@ -7,12 +7,13 @@ export default function RootLayout({
 }>) {
   return (
     <div className="h-screen flex flex-col">
-      <div className="max-w-2xl w-full mx-auto">
-        <NavBar />
-      </div>
-      <div className="w-screen border-b" />
-      <main className="max-w-2xl w-full mx-auto flex-1 overflow-auto">
-        {children}
+      <header className="border-b">
+        <div className="max-w-6xl w-full mx-auto flex-shrink-0">
+          <NavBar />
+        </div>
+      </header>
+      <main className="flex-1 overflow-auto">
+        <div className="max-w-6xl w-full mx-auto">{children}</div>
       </main>
     </div>
   );

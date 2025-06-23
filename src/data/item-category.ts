@@ -29,6 +29,10 @@ export const itemCategories: ItemCategory[] = [
                 id: "test-1",
                 name: "테스트 1",
               },
+              {
+                id: "test-2",
+                name: "테스트 2",
+              },
             ],
           },
         ],
@@ -36,6 +40,12 @@ export const itemCategories: ItemCategory[] = [
       {
         id: "ranged",
         name: "원거리 장비",
+        children: [
+          {
+            id: "test-3",
+            name: "테스트 3",
+          },
+        ],
       },
       {
         id: "magic",
