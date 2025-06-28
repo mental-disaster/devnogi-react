@@ -39,7 +39,7 @@ const loginSchema = z.object({
 
 type LoginFormData = z.infer<typeof loginSchema>;
 
-export default function LoginPage() {
+export default function Page() {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
@@ -62,10 +62,18 @@ export default function LoginPage() {
       // 로그인중...
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
-      const returnUrl =
-        document.referrer && document.referrer !== window.location.href
-          ? new URL(document.referrer).pathname
-          : "/";
+      const referrer = document.referrer;
+      let returnUrl = "/";
+
+      if (referrer && referrer !== window.location.href) {
+        try {
+          // 상대 URL도 처리
+          returnUrl = new URL(referrer, window.location.href).pathname;
+        } catch {
+          // 파싱 실패 시 안전 기본값
+          returnUrl = "/";
+        }
+      }
 
       window.history.replaceState(null, "", returnUrl);
       router.push(returnUrl);
