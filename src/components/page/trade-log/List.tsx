@@ -6,9 +6,16 @@ import {
   ListRow,
   ListCell,
 } from "@/components/ui/list";
-import { tradeLogs } from "@/data/mock-items";
 
-export default function TradeLogList() {
+export type TradeLog = {
+  id: number;
+  date: string;
+  item: string;
+  price: string;
+  status: string;
+};
+
+export default function TradeLogList({ logs }: { logs: TradeLog[] }) {
   return (
     <List>
       <ListHeader>
@@ -18,7 +25,7 @@ export default function TradeLogList() {
         <ListHeaderCell className="flex-[2]">상태</ListHeaderCell>
       </ListHeader>
       <ListBody>
-        {tradeLogs.map((trade) => (
+        {logs.map((trade) => (
           <ListRow key={trade.id}>
             <ListCell className="flex-[2]">{trade.date}</ListCell>
             <ListCell className="flex-[5]">{trade.item}</ListCell>
