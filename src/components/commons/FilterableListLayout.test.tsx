@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
-import Page from "./page";
+import FilterableListLayout from "./FilterableListLayout";
 
 // Mock localStorage
 const localStorageMock = {
@@ -13,7 +13,7 @@ Object.defineProperty(window, "localStorage", {
 });
 
 // Mock components
-jest.mock("@/components/page/auction/Category", () => {
+jest.mock("@/components/commons/Category", () => {
   return function MockAuctionCategory({
     selectedId,
     onSelect,
@@ -30,7 +30,7 @@ jest.mock("@/components/page/auction/Category", () => {
   };
 });
 
-jest.mock("@/components/page/auction/Search", () => {
+jest.mock("@/components/commons/Search", () => {
   return function MockAuctionSearch() {
     return <span data-testid="auction-search" />;
   };
@@ -42,37 +42,41 @@ jest.mock("@/components/page/auction/List", () => {
   };
 });
 
-describe("Auction Page", () => {
+describe("FilterableListLayout", () => {
   beforeEach(() => {
     localStorageMock.getItem.mockClear();
     localStorageMock.setItem.mockClear();
   });
 
   it("컴포넌트 렌더링 테스트", () => {
-    render(<Page />);
+    render(
+      <FilterableListLayout categoryStorageKey="testKey">
+        <span data-testid="child-content" />
+      </FilterableListLayout>,
+    );
 
     // 컴포넌트 렌더링 확인
     expect(screen.getByTestId("auction-search")).toBeInTheDocument();
     expect(screen.getByTestId("auction-category")).toBeInTheDocument();
-    expect(screen.getByTestId("auction-list")).toBeInTheDocument();
+    expect(screen.getByTestId("child-content")).toBeInTheDocument(); // Check for children
 
     // localStorage 초기값 확인
-    expect(localStorageMock.getItem).toHaveBeenCalledWith(
-      "lastSelectedCategory",
-    );
+    expect(localStorageMock.getItem).toHaveBeenCalledWith("testKey");
     expect(screen.getByTestId("selected-id")).toHaveTextContent("all");
   });
 
   it("localStorage 관련 테스트", async () => {
     localStorageMock.getItem.mockReturnValue("melee");
 
-    render(<Page />);
+    render(
+      <FilterableListLayout categoryStorageKey="testKey">
+        <span data-testid="child-content" />
+      </FilterableListLayout>,
+    );
 
     // 초기값 테스트
     await waitFor(() => {
-      expect(localStorageMock.getItem).toHaveBeenCalledWith(
-        "lastSelectedCategory",
-      );
+      expect(localStorageMock.getItem).toHaveBeenCalledWith("testKey");
       expect(screen.getByTestId("selected-id")).toHaveTextContent("melee");
     });
 
@@ -81,10 +85,7 @@ describe("Auction Page", () => {
     fireEvent.click(meleeButton);
 
     await waitFor(() => {
-      expect(localStorageMock.setItem).toHaveBeenCalledWith(
-        "lastSelectedCategory",
-        "saved",
-      );
+      expect(localStorageMock.setItem).toHaveBeenCalledWith("testKey", "saved");
     });
   });
 });

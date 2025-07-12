@@ -175,7 +175,7 @@ export default function Page() {
         <div className="text-center mt-6">
           <p className="text-sm">
             계정이 없으신가요?{" "}
-            <Link href="/signup" className="font-medium">
+            <Link href="/sign-up" className="font-medium">
               회원가입
             </Link>
           </p>

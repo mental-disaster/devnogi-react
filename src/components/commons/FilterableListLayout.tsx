@@ -1,15 +1,17 @@
 "use client";
 
 import React, { useState, useEffect, useMemo } from "react";
-import AuctionCategory from "@/components/page/auction/Category";
-import AuctionList from "@/components/page/auction/List";
-import AuctionSearch from "@/components/page/auction/Search";
+import AuctionCategory from "@/components/commons/Category";
+import AuctionSearch from "@/components/commons/Search";
 import { ItemCategory, itemCategories } from "@/data/item-category";
-import { mockItems } from "@/data/mock-items";
 
-const STORAGE_KEY = "lastSelectedCategory";
-
-export default function Page() {
+export default function FilterableListLayout({
+  children,
+  categoryStorageKey,
+}: {
+  children: React.ReactNode;
+  categoryStorageKey: string;
+}) {
   const [selectedId, setSelectedId] = useState<string>("all");
   const [isClient, setIsClient] = useState(false);
   const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
@@ -41,7 +43,7 @@ export default function Page() {
   const handleCategorySelect = (id: string) => {
     setSelectedId(id);
     if (isClient) {
-      localStorage.setItem(STORAGE_KEY, id);
+      localStorage.setItem(categoryStorageKey, id);
     }
   };
 
@@ -57,13 +59,11 @@ export default function Page() {
     });
   };
 
-  // selectedId가 변경될 때마다 categoryPath와 expandedIds 업데이트
   const categoryPath = useMemo(
     () => findCategoryPath(itemCategories, selectedId),
     [selectedId],
   );
 
-  // 기존에 열려있던 카테고리들을 유지하면서 선택된 카테고리 경로 추가
   useEffect(() => {
     setExpandedIds((prev) => {
       const next = new Set(prev);
@@ -72,10 +72,9 @@ export default function Page() {
     });
   }, [categoryPath]);
 
-  // 웹페이지 재접속시에도 기존 카테고리 선택 유지
   useEffect(() => {
     setIsClient(true);
-    const saved = localStorage.getItem(STORAGE_KEY);
+    const saved = localStorage.getItem(categoryStorageKey);
     if (saved) {
       setSelectedId(saved);
     }
@@ -98,9 +97,7 @@ export default function Page() {
             onToggleExpand={handleToggleExpand}
           />
         </div>
-        <div className="flex-1">
-          <AuctionList items={mockItems} />
-        </div>
+        <div className="flex-1">{children}</div>
       </div>
     </div>
   );

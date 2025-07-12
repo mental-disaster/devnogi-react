@@ -5,7 +5,6 @@ export const mockItems = [
     timeLeft: "59시간",
     tradeType: "일반 거래",
     pricePerUnit: "9999 Gold",
-    totalPrice: "9999 Gold",
     icon: "/file.svg",
   },
   {
@@ -14,7 +13,6 @@ export const mockItems = [
     timeLeft: "59시간",
     tradeType: "일반 거래",
     pricePerUnit: "6666 Gold",
-    totalPrice: "6666 Gold",
     icon: "/file.svg",
   },
   {
@@ -23,7 +21,6 @@ export const mockItems = [
     timeLeft: "59시간",
     tradeType: "일반 거래",
     pricePerUnit: "2000 Gold",
-    totalPrice: "2000 Gold",
     icon: "/file.svg",
   },
   {
@@ -32,7 +29,6 @@ export const mockItems = [
     timeLeft: "59시간",
     tradeType: "일반 거래",
     pricePerUnit: "9998 Gold",
-    totalPrice: "9998 Gold",
     icon: "/file.svg",
   },
   {
@@ -41,7 +37,6 @@ export const mockItems = [
     timeLeft: "59시간",
     tradeType: "일반 거래",
     pricePerUnit: "7000 Gold",
-    totalPrice: "7000 Gold",
     icon: "/file.svg",
   },
   {
@@ -50,7 +45,6 @@ export const mockItems = [
     timeLeft: "59시간",
     tradeType: "일반 거래",
     pricePerUnit: "3000 Gold",
-    totalPrice: "3000 Gold",
     icon: "/file.svg",
   },
   {
@@ -59,7 +53,6 @@ export const mockItems = [
     timeLeft: "59시간",
     tradeType: "일반 거래",
     pricePerUnit: "2900 Gold",
-    totalPrice: "2900 Gold",
     icon: "/file.svg",
   },
   {
@@ -68,7 +61,6 @@ export const mockItems = [
     timeLeft: "59시간",
     tradeType: "일반 거래",
     pricePerUnit: "4000 Gold",
-    totalPrice: "4000 Gold",
     icon: "/file.svg",
   },
   {
@@ -77,7 +69,6 @@ export const mockItems = [
     timeLeft: "59시간",
     tradeType: "일반 거래",
     pricePerUnit: "3000 Gold",
-    totalPrice: "3000 Gold",
     icon: "/file.svg",
   },
   {
@@ -86,7 +77,6 @@ export const mockItems = [
     timeLeft: "5시간",
     tradeType: "일반 거래",
     pricePerUnit: "930만 Gold",
-    totalPrice: "930만 Gold",
     icon: "/file.svg",
   },
 ];

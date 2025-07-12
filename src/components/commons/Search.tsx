@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 import { ItemCategory } from "@/data/item-category";
 import React from "react";
 
-export default function AuctionSearch({
+export default function SearchSection({
   path,
   onCategorySelect,
 }: {
