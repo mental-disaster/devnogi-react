@@ -17,12 +17,16 @@ describe("ErrorPage", () => {
   it("렌더링 테스트", () => {
     render(<ErrorPage error={mockError} reset={mockReset} />);
 
+    const homeLink = screen.getByRole("link", { name: "홈으로 가기" });
+
     expect(
       screen.getByRole("heading", { name: "문제가 발생했습니다!" }),
     ).toBeInTheDocument();
     expect(
       screen.getByRole("button", { name: "다시 시도" }),
     ).toBeInTheDocument();
+    expect(homeLink).toBeInTheDocument();
+    expect(homeLink).toHaveAttribute("href", "/");
   });
 
   it("reset 버튼 동작 테스트", () => {

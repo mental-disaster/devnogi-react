@@ -71,7 +71,7 @@ const RecursiveCategoryItem = ({
   );
 };
 
-export default function AuctionCategory({
+export default function ItemCategorySection({
   selectedId,
   onSelect,
   expandedIds,

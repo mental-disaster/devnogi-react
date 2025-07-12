@@ -37,7 +37,7 @@ describe("LoginPage", () => {
 
     const signupLink = screen.getByRole("link", { name: /회원가입/ });
     expect(signupLink).toBeInTheDocument();
-    expect(signupLink).toHaveAttribute("href", "/signup");
+    expect(signupLink).toHaveAttribute("href", "/sign-up");
   });
 
   // 아이디 validation 테스트
