@@ -1,5 +1,6 @@
 import React from "react";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import TradeLogPage from "./page";
 import { clientAxios } from "@/lib/api/clients";
 import { AUCTION_HISTORY_ENDPOINT } from "@/lib/api/constants";
@@ -59,6 +60,25 @@ jest.mock("@/components/page/auction-history/List", () => {
   return MockList;
 });
 
+// TanStack Query 테스트를 위한 래퍼 컴포넌트
+const createTestQueryClient = () =>
+  new QueryClient({
+    defaultOptions: {
+      queries: {
+        retry: false,
+        staleTime: 0,
+        gcTime: 0,
+      },
+    },
+  });
+
+const renderWithQueryClient = (component: React.ReactElement) => {
+  const queryClient = createTestQueryClient();
+  return render(
+    <QueryClientProvider client={queryClient}>{component}</QueryClientProvider>,
+  );
+};
+
 describe("TradeLogPage", () => {
   beforeEach(() => {
     mockedClientAxios.mockClear();
@@ -67,7 +87,7 @@ describe("TradeLogPage", () => {
   it("마운트 시 기본 파라미터로 API 호출 및 리스트 렌더링 테스트", async () => {
     mockedClientAxios.mockResolvedValue({ data: ["log1", "log2"] });
 
-    render(<TradeLogPage />);
+    renderWithQueryClient(<TradeLogPage />);
 
     await waitFor(() => {
       expect(mockedClientAxios).toHaveBeenCalledWith(AUCTION_HISTORY_ENDPOINT, {
@@ -82,13 +102,13 @@ describe("TradeLogPage", () => {
     });
   });
 
-  it("파라미터 변경 API 재호출 및 리스트 갱신 테스트", async () => {
+  it("파라미터 변경 시 API 재호출 및 리스트 갱신 테스트", async () => {
     mockedClientAxios
       .mockResolvedValueOnce({ data: ["log1", "log2"] })
       .mockResolvedValueOnce({ data: ["catChanged"] })
       .mockResolvedValueOnce({ data: ["nameChanged"] });
 
-    render(<TradeLogPage />);
+    renderWithQueryClient(<TradeLogPage />);
 
     await waitFor(() => expect(mockedClientAxios).toHaveBeenCalledTimes(1));
 
@@ -106,6 +126,17 @@ describe("TradeLogPage", () => {
         params: { itemName: "newName", category: "newCat" },
       });
       expect(screen.getByText("nameChanged")).toBeInTheDocument();
+    });
+  });
+
+  it("API 호출 실패 시 빈 배열로 렌더링 테스트", async () => {
+    mockedClientAxios.mockRejectedValue(new Error("API Error"));
+
+    renderWithQueryClient(<TradeLogPage />);
+
+    await waitFor(() => {
+      expect(screen.getByTestId("trade-log-list")).toBeInTheDocument();
+      expect(screen.queryAllByTestId("log-item")).toHaveLength(0);
     });
   });
 });
