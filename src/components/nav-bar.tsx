@@ -1,4 +1,5 @@
-import { Italic, Menu, User } from "lucide-react";
+import { Menu, User } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 function NavBar() {
@@ -10,8 +11,17 @@ function NavBar() {
         </Link>
       </div>
       <div className="flex justify-self-center sm:justify-self-start items-center">
-        <Link href="/">
-          <Italic className="w-6 h-6" />
+        <Link className="flex" href="/">
+          <Image
+            src="/images/icons/icon-96x96.png"
+            alt="navbar logo"
+            width={32}
+            height={32}
+            priority
+          />
+          <h1 className="sm:hidden ml-2 text-lg font-bold tracking-tight leading-none self-center">
+            Devnogi
+          </h1>
         </Link>
       </div>
       <div className="sm:flex hidden items-center justify-start md:gap-4 gap-2">

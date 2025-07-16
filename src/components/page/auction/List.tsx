@@ -1,11 +1,11 @@
 import {
-  List,
-  ListHeader,
-  ListHeaderCell,
-  ListBody,
-  ListRow,
-  ListCell,
-} from "@/components/ui/list";
+  Table,
+  TableHeader,
+  TableBody,
+  TableRow,
+  TableHead,
+  TableCell,
+} from "@/components/ui/table";
 
 export type AuctionItem = {
   id: number;
@@ -17,23 +17,25 @@ export type AuctionItem = {
 
 export default function AuctionList({ items }: { items: AuctionItem[] }) {
   return (
-    <List className="flex-1">
-      <ListHeader>
-        <ListHeaderCell className="flex-[4]">아이템</ListHeaderCell>
-        <ListHeaderCell className="flex-[1]">남은 시간</ListHeaderCell>
-        <ListHeaderCell className="flex-[1]">거래 방식</ListHeaderCell>
-        <ListHeaderCell className="flex-[3]">가격</ListHeaderCell>
-      </ListHeader>
-      <ListBody>
+    <Table className="flex-1">
+      <TableHeader>
+        <TableRow>
+          <TableHead className="w-4/9">아이템</TableHead>
+          <TableHead className="w-1/9">남은 시간</TableHead>
+          <TableHead className="w-1/9">거래 방식</TableHead>
+          <TableHead className="w-3/9">가격</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
         {items.map((item) => (
-          <ListRow key={item.id}>
-            <ListCell className="flex-[4]">{item.name}</ListCell>
-            <ListCell className="flex-[1]">{item.timeLeft}</ListCell>
-            <ListCell className="flex-[1]">{item.tradeType}</ListCell>
-            <ListCell className="flex-[3]">{item.pricePerUnit}</ListCell>
-          </ListRow>
+          <TableRow key={item.id}>
+            <TableCell className="w-4/9">{item.name}</TableCell>
+            <TableCell className="w-1/9">{item.timeLeft}</TableCell>
+            <TableCell className="w-1/9">{item.tradeType}</TableCell>
+            <TableCell className="w-3/9">{item.pricePerUnit}</TableCell>
+          </TableRow>
         ))}
-      </ListBody>
-    </List>
+      </TableBody>
+    </Table>
   );
 }
