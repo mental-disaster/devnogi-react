@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/list";
 import { isoStringFormat } from "@/utils/date";
 
-export type TradeLog = {
+export type AuctionHistory = {
   id: number;
   dateAuctionBuy: string;
   itemName: string;
@@ -16,7 +16,11 @@ export type TradeLog = {
   itemCount: string;
 };
 
-export default function TradeLogList({ logs }: { logs: TradeLog[] }) {
+export default function AuctionHistoryList({
+  logs,
+}: {
+  logs: AuctionHistory[];
+}) {
   return (
     <List>
       <ListHeader>
@@ -26,16 +30,16 @@ export default function TradeLogList({ logs }: { logs: TradeLog[] }) {
         <ListHeaderCell className="flex-[1]">수량</ListHeaderCell>
       </ListHeader>
       <ListBody>
-        {logs.map((trade) => (
-          <ListRow key={trade.id}>
+        {logs.map((log) => (
+          <ListRow key={log.id}>
             <ListCell className="flex-[3]">
-              {isoStringFormat(trade.dateAuctionBuy, "yyyy-MM-dd HH:mm")}
+              {isoStringFormat(log.dateAuctionBuy, "yyyy-MM-dd HH:mm")}
             </ListCell>
-            <ListCell className="flex-[5]">{trade.itemName}</ListCell>
+            <ListCell className="flex-[5]">{log.itemName}</ListCell>
             <ListCell className="flex-[3]">
-              {trade.auctionPricePerUnit.toLocaleString()} Gold
+              {log.auctionPricePerUnit.toLocaleString()} Gold
             </ListCell>
-            <ListCell className="flex-[1]">{trade.itemCount} 개</ListCell>
+            <ListCell className="flex-[1]">{log.itemCount} 개</ListCell>
           </ListRow>
         ))}
       </ListBody>
