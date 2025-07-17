@@ -20,8 +20,7 @@ export async function GET(request: NextRequest) {
     const { data, status } = await axios.get(AUCTION_HISTORY_ENDPOINT, {
       params,
     });
-    const items = data.data.items;
-    return NextResponse.json(items, { status: status });
+    return NextResponse.json(data.items, { status: status });
   } catch (error: unknown) {
     // AxiosError 처리(Gateway 통신 오류)
     if ((error as AxiosError).isAxiosError) {

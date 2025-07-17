@@ -1,11 +1,11 @@
 import {
-  List,
-  ListHeader,
-  ListHeaderCell,
-  ListBody,
-  ListRow,
-  ListCell,
-} from "@/components/ui/list";
+  Table,
+  TableHeader,
+  TableBody,
+  TableRow,
+  TableHead,
+  TableCell,
+} from "@/components/ui/table";
 import { isoStringFormat } from "@/utils/date";
 
 export type AuctionHistory = {
@@ -17,32 +17,43 @@ export type AuctionHistory = {
 };
 
 export default function AuctionHistoryList({
-  logs,
+  auctionHistoryList,
 }: {
-  logs: AuctionHistory[];
+  auctionHistoryList: AuctionHistory[];
 }) {
+  const tooltipContent = (history: AuctionHistory) => {
+    return `날짜: ${isoStringFormat(history.dateAuctionBuy)}\n상품명: ${history.itemName}\n가격: ${history.auctionPricePerUnit.toLocaleString()} Gold\n개수: ${history.itemCount} 개`;
+  };
+
   return (
-    <List>
-      <ListHeader>
-        <ListHeaderCell className="flex-[3]">판매일시</ListHeaderCell>
-        <ListHeaderCell className="flex-[5]">상품명</ListHeaderCell>
-        <ListHeaderCell className="flex-[3]">가격</ListHeaderCell>
-        <ListHeaderCell className="flex-[1]">수량</ListHeaderCell>
-      </ListHeader>
-      <ListBody>
-        {logs.map((log) => (
-          <ListRow key={log.id}>
-            <ListCell className="flex-[3]">
-              {isoStringFormat(log.dateAuctionBuy, "yyyy-MM-dd HH:mm")}
-            </ListCell>
-            <ListCell className="flex-[5]">{log.itemName}</ListCell>
-            <ListCell className="flex-[3]">
-              {log.auctionPricePerUnit.toLocaleString()} Gold
-            </ListCell>
-            <ListCell className="flex-[1]">{log.itemCount} 개</ListCell>
-          </ListRow>
+    <Table>
+      <TableHeader>
+        <TableRow>
+          <TableHead className="w-1/6">날짜</TableHead>
+          <TableHead className="w-2/6">상품명</TableHead>
+          <TableHead className="w-2/6">가격</TableHead>
+          <TableHead className="w-1/6">개수</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        {auctionHistoryList.map((auctionHistory) => (
+          <TableRow
+            key={auctionHistory.id}
+            tooltipContent={tooltipContent(auctionHistory)}
+          >
+            <TableCell className="w-1/6">
+              {isoStringFormat(auctionHistory.dateAuctionBuy)}
+            </TableCell>
+            <TableCell className="w-2/6">{auctionHistory.itemName}</TableCell>
+            <TableCell className="w-2/6">
+              {auctionHistory.auctionPricePerUnit.toLocaleString()} Gold
+            </TableCell>
+            <TableCell className="w-1/6">
+              {auctionHistory.itemCount} 개
+            </TableCell>
+          </TableRow>
         ))}
-      </ListBody>
-    </List>
+      </TableBody>
+    </Table>
   );
 }

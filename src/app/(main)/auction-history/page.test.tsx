@@ -46,9 +46,13 @@ jest.mock("@/components/commons/FilterableListLayout", () => {
 });
 
 jest.mock("@/components/page/auction-history/List", () => {
-  const MockList = ({ logs }: { logs: string[] }) => (
+  const MockList = ({
+    auctionHistoryList,
+  }: {
+    auctionHistoryList: string[];
+  }) => (
     <ul data-testid="trade-log-list">
-      {logs.map((log: string, idx: number) => (
+      {auctionHistoryList.map((log: string, idx: number) => (
         <li key={idx} data-testid="log-item">
           {log}
         </li>

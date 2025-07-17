@@ -37,7 +37,7 @@ export default function Page() {
       setItemName={setItemName}
       categoryStorageKey="lastSelectedCategoryTradeLog"
     >
-      <AuctionHistoryList logs={auctionHistory} />
+      <AuctionHistoryList auctionHistoryList={auctionHistory} />
     </CategoryLayout>
   );
 }
