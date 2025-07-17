@@ -64,10 +64,12 @@ npm run dev
 루트 디렉토리에 api 구조에 맞게 db.json 파일 생성
 ```
 
-2. 
+2. api 모킹 서버 구동
 ``` bash
-npx json-server --watch db.json --port 3001
+npm run api
 ```
+* 주의: api 서버가 3001번 포트로 설정되어있기 때문에 다른 포트를 사용할 경우 package.json에서 수정이 필요합니다.
+
 
 [http://localhost:3001](http://localhost:3001)로 모킹 서버에 접근할 수 있습니다.
 
