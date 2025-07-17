@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import TanStackQueryProvider from "./_providers/TanStackQueryProvider";
 
 export const metadata: Metadata = {
   title: "Devnogi",
@@ -13,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <TanStackQueryProvider>{children}</TanStackQueryProvider>
+      </body>
     </html>
   );
 }
