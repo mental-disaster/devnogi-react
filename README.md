@@ -55,24 +55,6 @@ npm run dev
 
 브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 애플리케이션을 확인할 수 있습니다.
 
-### Gateway 목업 서버
-
-[json-server](https://github.com/typicode/json-server#readme)를 사용해 Gateway를 목업할 수 있습니다.
-
-1. 서버 파일 생성
-```plaintext
-루트 디렉토리에 api 구조에 맞게 db.json 파일 생성
-```
-
-2. api 목업 서버 구동
-``` bash
-npm run api
-```
-* 주의: api 서버가 3001번 포트로 설정되어있기 때문에 다른 포트를 사용할 경우 package.json에서 수정이 필요합니다.
-
-
-[http://localhost:3001](http://localhost:3001)로 목업 서버에 접근할 수 있습니다.
-
 ## 개발 프로세스
 
 ### GitHub Flow 브랜치 전략
