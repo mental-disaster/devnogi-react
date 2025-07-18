@@ -1,5 +1,8 @@
-# Gateway URL
-GATEWAY_URL=http://localhost:3001
+# 실행 환경 수준
+NODE_ENV=development
 
-# BFF URL
-NEXT_PUBLIC_BACKEND_URL=http://localhost:3000
+# API 모킹 활성화 여부 (enabled | disabled)
+API_MOCKING=enabled
+
+# Gateway URL
+GATEWAY_BASE_URL=https://your.gateway.com

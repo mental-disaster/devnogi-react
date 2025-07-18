@@ -4,7 +4,7 @@ import { AxiosError } from "axios";
 import { NextRequest, NextResponse } from "next/server";
 
 // auction-history 요청 캐싱 기간 30분(초)
-export const revalidate = 60 * 30;
+export const revalidate = 1800;
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);

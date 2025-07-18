@@ -1,0 +1,2198 @@
+{
+    "items": [
+        {
+        "id": 130993,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "신성한 정복자 미티어로이드 페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 130000000,
+        "dateAuctionBuy": "2025-07-03T14:47:44Z",
+        "auctionBuyId": "361400882",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 167850,
+            "optionType": "아이템 보호",
+            "optionSubType": null,
+            "optionValue": "인챈트 실패",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167851,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "109",
+            "optionValue2": "193",
+            "optionDesc": null
+            },
+            {
+            "id": 167852,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 167853,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "81%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167854,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "73%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167855,
+            "optionType": "숙련",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167856,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "32",
+            "optionValue2": "32",
+            "optionDesc": null
+            },
+            {
+            "id": 167857,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": "28,38,98",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167858,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "36,19,15",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167859,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": "219,227,227",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167860,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "92,129,179",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167861,
+            "optionType": "인챈트",
+            "optionSubType": "접두",
+            "optionValue": "정복자 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,회피 랭크 6 이상일 때 체력 40 증가,파이널 히트 랭크 1 이상일 때 최소대미지 14 증가,윈드밀 랭크 1 이상일 때 최대대미지 25 증가"
+            },
+            {
+            "id": 167862,
+            "optionType": "인챈트",
+            "optionSubType": "접미",
+            "optionValue": "미티어로이드 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,피어싱 레벨 3 증가,회피 랭크 6 이상일 때 행운 15 증가,디펜스 랭크 1 이상일 때 체력 25 증가,배쉬 랭크 1 이상일 때 최대대미지 42 증가"
+            },
+            {
+            "id": 167863,
+            "optionType": "일반 개조",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": "5",
+            "optionDesc": null
+            },
+            {
+            "id": 167864,
+            "optionType": "보석 개조",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167865,
+            "optionType": "장인 개조",
+            "optionSubType": null,
+            "optionValue": "솜씨 15 증가,최대생명력 18 증가,체력 30 증가",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167866,
+            "optionType": "특별 개조",
+            "optionSubType": "R",
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167867,
+            "optionType": "세공 랭크",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167868,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 최대 대미지(9레벨:90 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167869,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "스매시 대미지(18레벨:180 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167870,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "파이널 히트 최소 대미지(10레벨:50 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 167871,
+            "optionType": "에르그",
+            "optionSubType": "S",
+            "optionValue": "50",
+            "optionValue2": "50",
+            "optionDesc": null
+            },
+            {
+            "id": 167872,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 167873,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 167874,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 167875,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": "+3",
+            "optionDesc": null
+            },
+            {
+            "id": 167876,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        },
+        {
+        "id": 151420,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "신성한 정복자 미티어로이드 페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 175000000,
+        "dateAuctionBuy": "2025-07-04T02:39:29Z",
+        "auctionBuyId": "361527616",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 189931,
+            "optionType": "아이템 보호",
+            "optionSubType": null,
+            "optionValue": "인챈트 실패",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189932,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "109",
+            "optionValue2": "233",
+            "optionDesc": null
+            },
+            {
+            "id": 189933,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 189934,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "81%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189935,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "73%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189936,
+            "optionType": "숙련",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189937,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "20",
+            "optionValue2": "32",
+            "optionDesc": null
+            },
+            {
+            "id": 189938,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": "0,0,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189939,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "255,255,255",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189940,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": "35,39,41",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189941,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "35,39,41",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189942,
+            "optionType": "인챈트",
+            "optionSubType": "접두",
+            "optionValue": "정복자 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,회피 랭크 6 이상일 때 체력 40 증가,파이널 히트 랭크 1 이상일 때 최소대미지 14 증가,윈드밀 랭크 1 이상일 때 최대대미지 25 증가"
+            },
+            {
+            "id": 189943,
+            "optionType": "인챈트",
+            "optionSubType": "접미",
+            "optionValue": "미티어로이드 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,피어싱 레벨 3 증가,회피 랭크 6 이상일 때 행운 15 증가,디펜스 랭크 1 이상일 때 체력 25 증가,배쉬 랭크 1 이상일 때 최대대미지 27 증가"
+            },
+            {
+            "id": 189944,
+            "optionType": "일반 개조",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": "5",
+            "optionDesc": null
+            },
+            {
+            "id": 189945,
+            "optionType": "보석 개조",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189946,
+            "optionType": "장인 개조",
+            "optionSubType": null,
+            "optionValue": "최대스태미나 15 증가,체력 31 증가,최대생명력 10 증가,솜씨 27 증가",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189947,
+            "optionType": "특별 개조",
+            "optionSubType": "R",
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189948,
+            "optionType": "세공 랭크",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189949,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "최대 공격력(20레벨:40 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189950,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "아이스볼트 최소 대미지(9레벨:0.63 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189951,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "대미지밸런스(14레벨:14 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 189952,
+            "optionType": "에르그",
+            "optionSubType": "S",
+            "optionValue": "50",
+            "optionValue2": "50",
+            "optionDesc": null
+            },
+            {
+            "id": 189953,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 189954,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 189955,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 189956,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": "+3",
+            "optionDesc": null
+            },
+            {
+            "id": 189957,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        },
+        {
+        "id": 167671,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "신성한 정복자 미티어로이드 페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 45000000,
+        "dateAuctionBuy": "2025-07-04T11:52:36Z",
+        "auctionBuyId": "361658454",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 205195,
+            "optionType": "아이템 보호",
+            "optionSubType": null,
+            "optionValue": "인챈트 실패",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205196,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "60",
+            "optionValue2": "143",
+            "optionDesc": null
+            },
+            {
+            "id": 205197,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 205198,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "81%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205199,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "74%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205200,
+            "optionType": "숙련",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205201,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "22",
+            "optionValue2": "33",
+            "optionDesc": null
+            },
+            {
+            "id": 205202,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": "31,31,33",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205203,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "47,43,71",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205204,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": "207,159,97",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205205,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "7,23,52",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205206,
+            "optionType": "인챈트",
+            "optionSubType": "접두",
+            "optionValue": "정복자 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,회피 랭크 6 이상일 때 체력 40 증가,파이널 히트 랭크 1 이상일 때 최소대미지 15 증가,윈드밀 랭크 1 이상일 때 최대대미지 25 증가"
+            },
+            {
+            "id": 205207,
+            "optionType": "인챈트",
+            "optionSubType": "접미",
+            "optionValue": "미티어로이드 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,피어싱 레벨 3 증가,회피 랭크 6 이상일 때 행운 15 증가,디펜스 랭크 1 이상일 때 체력 25 증가,배쉬 랭크 1 이상일 때 최대대미지 38 증가"
+            },
+            {
+            "id": 205208,
+            "optionType": "일반 개조",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": "5",
+            "optionDesc": null
+            },
+            {
+            "id": 205209,
+            "optionType": "보석 개조",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205210,
+            "optionType": "장인 개조",
+            "optionSubType": null,
+            "optionValue": "솜씨 30 증가,체력 35 증가",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205211,
+            "optionType": "특별 개조",
+            "optionSubType": "R",
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205212,
+            "optionType": "세공 랭크",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205213,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "전기 속성(4레벨:4 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205214,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "스매시 대미지(19레벨:190 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205215,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "체력(13레벨:19.50 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 205216,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 205217,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 205218,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 205219,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": "+3",
+            "optionDesc": null
+            },
+            {
+            "id": 205220,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        },
+        {
+        "id": 188970,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "신성한 정복자 미티어로이드 페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 200000000,
+        "dateAuctionBuy": "2025-07-04T15:54:45Z",
+        "auctionBuyId": "361156741",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 231100,
+            "optionType": "아이템 보호",
+            "optionSubType": null,
+            "optionValue": "인챈트 실패",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231101,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "110",
+            "optionValue2": "193",
+            "optionDesc": null
+            },
+            {
+            "id": 231102,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 231103,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "82%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231104,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "75%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231105,
+            "optionType": "숙련",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231106,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "11",
+            "optionValue2": "31",
+            "optionDesc": null
+            },
+            {
+            "id": 231107,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": "0,0,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231108,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "0,0,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231109,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": null,
+            "optionValue2": null,
+            "optionDesc": "(반짝)"
+            },
+            {
+            "id": 231110,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "128,0,16",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231111,
+            "optionType": "인챈트",
+            "optionSubType": "접두",
+            "optionValue": "정복자 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,회피 랭크 6 이상일 때 체력 40 증가,파이널 히트 랭크 1 이상일 때 최소대미지 14 증가,윈드밀 랭크 1 이상일 때 최대대미지 25 증가"
+            },
+            {
+            "id": 231112,
+            "optionType": "인챈트",
+            "optionSubType": "접미",
+            "optionValue": "미티어로이드 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,피어싱 레벨 3 증가,회피 랭크 6 이상일 때 행운 15 증가,디펜스 랭크 1 이상일 때 체력 25 증가,배쉬 랭크 1 이상일 때 최대대미지 32 증가"
+            },
+            {
+            "id": 231113,
+            "optionType": "일반 개조",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": "5",
+            "optionDesc": null
+            },
+            {
+            "id": 231114,
+            "optionType": "보석 개조",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231115,
+            "optionType": "장인 개조",
+            "optionSubType": null,
+            "optionValue": "체력 32 증가,솜씨 15 증가,최대생명력 4 증가,최대스태미나 2 증가",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231116,
+            "optionType": "특별 개조",
+            "optionSubType": "R",
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231117,
+            "optionType": "세공 랭크",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231118,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 최소 대미지(10레벨:50 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231119,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "스매시 대미지(20레벨:200 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231120,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "스피어 오브 라이트 대미지(14레벨:210 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 231121,
+            "optionType": "에르그",
+            "optionSubType": "S",
+            "optionValue": "50",
+            "optionValue2": "50",
+            "optionDesc": null
+            },
+            {
+            "id": 231122,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 231123,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 231124,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 231125,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": "+3",
+            "optionDesc": null
+            },
+            {
+            "id": 231126,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        },
+        {
+        "id": 239132,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "신성한 정복자 미티어로이드 페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 190000000,
+        "dateAuctionBuy": "2025-07-05T08:51:54Z",
+        "auctionBuyId": "361398788",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 286389,
+            "optionType": "아이템 보호",
+            "optionSubType": null,
+            "optionValue": "인챈트 실패",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286390,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": "219",
+            "optionDesc": null
+            },
+            {
+            "id": 286391,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 286392,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "82%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286393,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "75%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286394,
+            "optionType": "숙련",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286395,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "33",
+            "optionValue2": "33",
+            "optionDesc": null
+            },
+            {
+            "id": 286396,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": "0,0,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286397,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "0,0,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286398,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": "255,190,60",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286399,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "255,190,60",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286400,
+            "optionType": "인챈트",
+            "optionSubType": "접두",
+            "optionValue": "정복자 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,회피 랭크 6 이상일 때 체력 40 증가,파이널 히트 랭크 1 이상일 때 최소대미지 10 증가,윈드밀 랭크 1 이상일 때 최대대미지 25 증가"
+            },
+            {
+            "id": 286401,
+            "optionType": "인챈트",
+            "optionSubType": "접미",
+            "optionValue": "미티어로이드 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,피어싱 레벨 3 증가,회피 랭크 6 이상일 때 행운 15 증가,디펜스 랭크 1 이상일 때 체력 25 증가,배쉬 랭크 1 이상일 때 최대대미지 44 증가"
+            },
+            {
+            "id": 286402,
+            "optionType": "일반 개조",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": "5",
+            "optionDesc": null
+            },
+            {
+            "id": 286403,
+            "optionType": "보석 개조",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286404,
+            "optionType": "장인 개조",
+            "optionSubType": null,
+            "optionValue": "최대생명력 16 증가,솜씨 7 증가,체력 34 증가,최대스태미나 8 증가",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286405,
+            "optionType": "특별 개조",
+            "optionSubType": "R",
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286406,
+            "optionType": "세공 랭크",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286407,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "크리티컬(4레벨:4 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286408,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "최대 공격력(18레벨:36 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286409,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "스매시 대미지(19레벨:190 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 286410,
+            "optionType": "에르그",
+            "optionSubType": "A",
+            "optionValue": "50",
+            "optionValue2": "50",
+            "optionDesc": null
+            },
+            {
+            "id": 286411,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 286412,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 286413,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 286414,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": "+3",
+            "optionDesc": null
+            },
+            {
+            "id": 286415,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "6",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        },
+        {
+        "id": 361947,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "축복받은 정복자 미티어로이드 페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 175000000,
+        "dateAuctionBuy": "2025-07-07T02:00:32Z",
+        "auctionBuyId": "362282221",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 416991,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "109",
+            "optionValue2": "193",
+            "optionDesc": null
+            },
+            {
+            "id": 416992,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 416993,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "80%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 416994,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "72%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 416995,
+            "optionType": "숙련",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 416996,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "31",
+            "optionValue2": "31",
+            "optionDesc": null
+            },
+            {
+            "id": 416997,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": null,
+            "optionValue2": null,
+            "optionDesc": "(반짝)"
+            },
+            {
+            "id": 416998,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "52,0,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 416999,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": "52,0,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 417000,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "114,0,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 417001,
+            "optionType": "인챈트",
+            "optionSubType": "접두",
+            "optionValue": "정복자 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,회피 랭크 6 이상일 때 체력 40 증가,파이널 히트 랭크 1 이상일 때 최소대미지 14 증가,윈드밀 랭크 1 이상일 때 최대대미지 24 증가"
+            },
+            {
+            "id": 417002,
+            "optionType": "인챈트",
+            "optionSubType": "접미",
+            "optionValue": "미티어로이드 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,피어싱 레벨 3 증가,회피 랭크 6 이상일 때 행운 15 증가,디펜스 랭크 1 이상일 때 체력 25 증가,배쉬 랭크 1 이상일 때 최대대미지 44 증가"
+            },
+            {
+            "id": 417003,
+            "optionType": "일반 개조",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": "5",
+            "optionDesc": null
+            },
+            {
+            "id": 417004,
+            "optionType": "보석 개조",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 417005,
+            "optionType": "장인 개조",
+            "optionSubType": null,
+            "optionValue": "솜씨 9 증가,최대생명력 8 증가,체력 34 증가,최대스태미나 12 증가",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 417006,
+            "optionType": "특별 개조",
+            "optionSubType": "R",
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 417007,
+            "optionType": "세공 랭크",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 417008,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "데몬 오브 피시스 [변신 중] 최소 대미지(3레벨:3 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 417009,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "스매시 대미지(20레벨:200 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 417010,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "파이널 히트 최소 대미지(10레벨:50 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 417011,
+            "optionType": "에르그",
+            "optionSubType": "S",
+            "optionValue": "50",
+            "optionValue2": "50",
+            "optionDesc": null
+            },
+            {
+            "id": 417012,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 417013,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 417014,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 417015,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": "+3",
+            "optionDesc": null
+            },
+            {
+            "id": 417016,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        },
+        {
+        "id": 444673,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 40000000,
+        "dateAuctionBuy": "2025-07-09T04:14:23Z",
+        "auctionBuyId": "362454494",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 501650,
+            "optionType": "아이템 보호",
+            "optionSubType": null,
+            "optionValue": "인챈트 실패",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501651,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "59",
+            "optionValue2": "93",
+            "optionDesc": null
+            },
+            {
+            "id": 501652,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 501653,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "73%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501654,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "73%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501655,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "32",
+            "optionValue2": "32",
+            "optionDesc": null
+            },
+            {
+            "id": 501656,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": "237,207,46",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501657,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "223,104,154",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501658,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": "237,214,234",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501659,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "98,201,224",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501660,
+            "optionType": "세공 랭크",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501661,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "타운트 유인한 적 1명 당 자신의 방어/마법방어 증가(11레벨:11 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501662,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "파이어볼트 최대 대미지(20레벨:2.00 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501663,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "스매시 대미지(20레벨:200 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501664,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 501665,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 501666,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 501667,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 501668,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        },
+        {
+        "id": 501815,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "축복받은 정복자 미티어로이드 페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 165000000,
+        "dateAuctionBuy": "2025-07-10T12:08:34Z",
+        "auctionBuyId": "363191689",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 566483,
+            "optionType": "아이템 보호",
+            "optionSubType": null,
+            "optionValue": "인챈트 실패",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566484,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "109",
+            "optionValue2": "233",
+            "optionDesc": null
+            },
+            {
+            "id": 566485,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 566486,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "81%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566487,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "73%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566488,
+            "optionType": "숙련",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566489,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "31",
+            "optionValue2": "31",
+            "optionDesc": null
+            },
+            {
+            "id": 566490,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": "198,20,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566491,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "198,20,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566492,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": "198,20,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566493,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "198,20,0",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566494,
+            "optionType": "인챈트",
+            "optionSubType": "접두",
+            "optionValue": "정복자 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,회피 랭크 6 이상일 때 체력 40 증가,파이널 히트 랭크 1 이상일 때 최소대미지 15 증가,윈드밀 랭크 1 이상일 때 최대대미지 22 증가"
+            },
+            {
+            "id": 566495,
+            "optionType": "인챈트",
+            "optionSubType": "접미",
+            "optionValue": "미티어로이드 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,피어싱 레벨 3 증가,회피 랭크 6 이상일 때 행운 15 증가,디펜스 랭크 1 이상일 때 체력 25 증가,배쉬 랭크 1 이상일 때 최대대미지 43 증가"
+            },
+            {
+            "id": 566496,
+            "optionType": "일반 개조",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": "5",
+            "optionDesc": null
+            },
+            {
+            "id": 566497,
+            "optionType": "보석 개조",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566498,
+            "optionType": "장인 개조",
+            "optionSubType": null,
+            "optionValue": "솜씨 11 증가,체력 33 증가,최대생명력 10 증가",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566499,
+            "optionType": "특별 개조",
+            "optionSubType": "R",
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566500,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "스매시 대미지(12레벨:120 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566501,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "얼음 속성(3레벨:3 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566502,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "최대 공격력(20레벨:40 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 566503,
+            "optionType": "에르그",
+            "optionSubType": "S",
+            "optionValue": "50",
+            "optionValue2": "50",
+            "optionDesc": null
+            },
+            {
+            "id": 566504,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 566505,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 566506,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 566507,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": "+3",
+            "optionDesc": null
+            },
+            {
+            "id": 566508,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "4",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        },
+        {
+        "id": 518873,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "신성한 정복자 미티어로이드 페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 180000000,
+        "dateAuctionBuy": "2025-07-10T14:55:46Z",
+        "auctionBuyId": "362955166",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 590755,
+            "optionType": "아이템 보호",
+            "optionSubType": null,
+            "optionValue": "인챈트 실패",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590756,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "110",
+            "optionValue2": "193",
+            "optionDesc": null
+            },
+            {
+            "id": 590757,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 590758,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "81%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590759,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "74%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590760,
+            "optionType": "숙련",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590761,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "12",
+            "optionValue2": "32",
+            "optionDesc": null
+            },
+            {
+            "id": 590762,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": "209,212,64",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590763,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "221,188,211",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590764,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": "244,118,140",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590765,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "159,153,150",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590766,
+            "optionType": "인챈트",
+            "optionSubType": "접두",
+            "optionValue": "정복자 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,회피 랭크 6 이상일 때 체력 40 증가,파이널 히트 랭크 1 이상일 때 최소대미지 15 증가,윈드밀 랭크 1 이상일 때 최대대미지 22 증가"
+            },
+            {
+            "id": 590767,
+            "optionType": "인챈트",
+            "optionSubType": "접미",
+            "optionValue": "미티어로이드 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,피어싱 레벨 3 증가,회피 랭크 6 이상일 때 행운 15 증가,디펜스 랭크 1 이상일 때 체력 25 증가,배쉬 랭크 1 이상일 때 최대대미지 43 증가"
+            },
+            {
+            "id": 590768,
+            "optionType": "일반 개조",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": "5",
+            "optionDesc": null
+            },
+            {
+            "id": 590769,
+            "optionType": "보석 개조",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590770,
+            "optionType": "장인 개조",
+            "optionSubType": null,
+            "optionValue": "최대생명력 9 증가,솜씨 18 증가,체력 33 증가",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590771,
+            "optionType": "특별 개조",
+            "optionSubType": "R",
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590772,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "라이트닝볼트 최소 대미지(14레벨:0.98 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590773,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "스매시 대미지(20레벨:200 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590774,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "행운(8레벨:12.00 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 590775,
+            "optionType": "에르그",
+            "optionSubType": "S",
+            "optionValue": "50",
+            "optionValue2": "50",
+            "optionDesc": null
+            },
+            {
+            "id": 590776,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 590777,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 590778,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 590779,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": "+3",
+            "optionDesc": null
+            },
+            {
+            "id": 590780,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        },
+        {
+        "id": 536341,
+        "itemName": "페러시우스 타이탄 블레이드",
+        "itemDisplayName": "신성한 충돌의 미티어로이드 페러시우스 타이탄 블레이드",
+        "itemCount": 1,
+        "auctionPricePerUnit": 180000000,
+        "dateAuctionBuy": "2025-07-12T04:04:08Z",
+        "auctionBuyId": "363316026",
+        "itemSubCategory": "검",
+        "itemTopCategory": "근거리 장비",
+        "itemOptions": [
+            {
+            "id": 618590,
+            "optionType": "아이템 보호",
+            "optionSubType": null,
+            "optionValue": "인챈트 실패",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618591,
+            "optionType": "공격",
+            "optionSubType": null,
+            "optionValue": "110",
+            "optionValue2": "231",
+            "optionDesc": null
+            },
+            {
+            "id": 618592,
+            "optionType": "부상률",
+            "optionSubType": null,
+            "optionValue": "35%",
+            "optionValue2": "60%",
+            "optionDesc": null
+            },
+            {
+            "id": 618593,
+            "optionType": "크리티컬",
+            "optionSubType": null,
+            "optionValue": "81%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618594,
+            "optionType": "밸런스",
+            "optionSubType": null,
+            "optionValue": "74%",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618595,
+            "optionType": "숙련",
+            "optionSubType": null,
+            "optionValue": "100",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618596,
+            "optionType": "내구력",
+            "optionSubType": null,
+            "optionValue": "26",
+            "optionValue2": "28",
+            "optionDesc": null
+            },
+            {
+            "id": 618597,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 A",
+            "optionValue": "255,255,255",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618598,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 B",
+            "optionValue": "255,255,255",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618599,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 C",
+            "optionValue": "255,255,255",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618600,
+            "optionType": "아이템 색상",
+            "optionSubType": "파트 D",
+            "optionValue": "255,255,255",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618601,
+            "optionType": "인챈트",
+            "optionSubType": "접두",
+            "optionValue": "충돌의 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,회피 랭크 6 이상일 때 체력 43 증가,스매시 랭크 1 이상일 때 최소대미지 15 증가,윈드밀 랭크 1 이상일 때 최대대미지 32 증가"
+            },
+            {
+            "id": 618602,
+            "optionType": "인챈트",
+            "optionSubType": "접미",
+            "optionValue": "미티어로이드 (랭크 4)",
+            "optionValue2": null,
+            "optionDesc": "수리비 200% 증가,피어싱 레벨 2 증가,회피 랭크 6 이상일 때 행운 15 증가,디펜스 랭크 1 이상일 때 체력 25 증가,배쉬 랭크 1 이상일 때 최대대미지 48 증가"
+            },
+            {
+            "id": 618603,
+            "optionType": "일반 개조",
+            "optionSubType": null,
+            "optionValue": "5",
+            "optionValue2": "5",
+            "optionDesc": null
+            },
+            {
+            "id": 618604,
+            "optionType": "보석 개조",
+            "optionSubType": null,
+            "optionValue": "1",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618605,
+            "optionType": "장인 개조",
+            "optionSubType": null,
+            "optionValue": "솜씨 29 증가,체력 35 증가,최대생명력 11 증가,최대스태미나 9 증가",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618606,
+            "optionType": "특별 개조",
+            "optionSubType": "R",
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618607,
+            "optionType": "세공 옵션",
+            "optionSubType": "1",
+            "optionValue": "최대 공격력(19레벨:38 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618608,
+            "optionType": "세공 옵션",
+            "optionSubType": "2",
+            "optionValue": "마법 공격력(15레벨:60 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618609,
+            "optionType": "세공 옵션",
+            "optionSubType": "3",
+            "optionValue": "스매시 대미지(14레벨:140 % 증가)",
+            "optionValue2": null,
+            "optionDesc": null
+            },
+            {
+            "id": 618610,
+            "optionType": "에르그",
+            "optionSubType": "S",
+            "optionValue": "50",
+            "optionValue2": "50",
+            "optionDesc": null
+            },
+            {
+            "id": 618611,
+            "optionType": "세트 효과",
+            "optionSubType": "1",
+            "optionValue": "파이널 히트 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 618612,
+            "optionType": "세트 효과",
+            "optionSubType": "2",
+            "optionValue": "파이널 스트라이크 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 618613,
+            "optionType": "세트 효과",
+            "optionSubType": "3",
+            "optionValue": "윈드밀 강화",
+            "optionValue2": "10",
+            "optionDesc": null
+            },
+            {
+            "id": 618614,
+            "optionType": "피어싱 레벨",
+            "optionSubType": null,
+            "optionValue": "3",
+            "optionValue2": "+2",
+            "optionDesc": null
+            },
+            {
+            "id": 618615,
+            "optionType": "남은 전용 해제 가능 횟수",
+            "optionSubType": null,
+            "optionValue": "7",
+            "optionValue2": null,
+            "optionDesc": null
+            }
+        ]
+        }
+    ],
+    "meta": {
+        "currentPage": 1,
+        "pageSize": 20,
+        "totalPages": 1,
+        "totalElements": 10,
+        "isFirst": true,
+        "isLast": true
+    }
+}
