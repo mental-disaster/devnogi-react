@@ -1,6 +1,9 @@
 # 실행 환경 수준
 NODE_ENV=development
 
+# vercel 환경 수준
+VERCEL_ENV=development
+
 # API 모킹 활성화 여부 (enabled | disabled)
 API_MOCKING=enabled
 
