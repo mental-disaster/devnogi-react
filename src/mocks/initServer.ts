@@ -5,8 +5,10 @@ declare global {
 }
 
 export function initMockServer() {
+  const vercelEnv = process.env.VERCEL_ENV;
+
   if (
-    process.env.NODE_ENV === "development" &&
+    (vercelEnv === "development" || vercelEnv === "preview") &&
     process.env.API_MOCKING === "enabled" &&
     !globalThis.__msw_server_started__
   ) {
