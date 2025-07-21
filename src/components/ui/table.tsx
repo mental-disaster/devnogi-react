@@ -108,21 +108,36 @@ function TableRow({
   tooltipContent,
   ...props
 }: React.ComponentProps<"tr"> & { tooltipContent?: React.ReactNode }) {
-  const [{ visible, x, y }, setTooltip] = useState({
+  const [{ visible, x, y, touch }, setTooltip] = useState({
     visible: false,
     x: 0,
     y: 0,
+    touch: false,
   });
 
-  const handlePointerEnter = (e: React.PointerEvent) => {
-    setTooltip({ visible: true, x: e.clientX, y: e.clientY });
+  const showTooltip = (e: React.PointerEvent) => {
+    setTooltip({
+      visible: true,
+      x: e.clientX,
+      y: e.clientY,
+      touch: e.pointerType === "touch",
+    });
   };
   const handlePointerMove = (e: React.PointerEvent) => {
     setTooltip((t) => ({ ...t, x: e.clientX, y: e.clientY }));
   };
-  const handlePointerLeave = () => {
+  const hideTooltip = () => {
     setTooltip((t) => ({ ...t, visible: false }));
   };
+
+  React.useEffect(() => {
+    if (!visible || !touch) return;
+    const close = () => hideTooltip();
+    document.addEventListener("pointerdown", close, {
+      capture: true,
+      once: true,
+    });
+  }, [visible, touch]);
 
   return (
     <>
@@ -132,9 +147,12 @@ function TableRow({
           "border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted",
           className,
         )}
-        onPointerEnter={handlePointerEnter}
-        onPointerMove={handlePointerMove}
-        onPointerLeave={handlePointerLeave}
+        onPointerEnter={(e) => e.pointerType !== "touch" && showTooltip(e)}
+        onPointerMove={(e) => e.pointerType !== "touch" && handlePointerMove(e)}
+        onPointerLeave={(e) => e.pointerType !== "touch" && hideTooltip()}
+        onPointerDown={(e) =>
+          e.pointerType === "touch" && visible ? hideTooltip() : showTooltip(e)
+        }
         {...props}
       >
         {children}
