@@ -1,6 +1,7 @@
 "use client";
 
 import CategoryLayout from "@/components/commons/FilterableListLayout";
+import FloatingButton from "@/components/commons/FloatingButton";
 import PageTitle from "@/components/commons/PageTitle";
 import AuctionHistoryList from "@/components/page/auction-history/List";
 import { clientAxios } from "@/lib/api/clients";
@@ -45,6 +46,8 @@ export default function Page() {
       >
         <AuctionHistoryList auctionHistoryList={auctionHistory} />
       </CategoryLayout>
+
+      <FloatingButton />
     </div>
   );
 }
