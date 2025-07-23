@@ -1,8 +1,8 @@
-export type ItemCategory = {
+export interface ItemCategory {
   id: string;
   name: string;
   children?: ItemCategory[];
-};
+}
 
 export const itemCategories: ItemCategory[] = [
   {

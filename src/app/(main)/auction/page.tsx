@@ -1,7 +1,7 @@
 "use client";
 
-import CategoryLayout from "@/components/commons/FilterableListLayout";
-import PageTitle from "@/components/commons/PageTitle";
+import CategoryLayout from "@/components/auction/FilterableListLayout";
+import PageTitle from "@/components/auction/PageTitle";
 import AuctionList from "@/components/page/auction/List";
 import { mockItems } from "@/data/mock-data";
 import { useState } from "react";

@@ -14,7 +14,7 @@ Object.defineProperty(window, "localStorage", {
 });
 
 // Mock components
-jest.mock("@/components/commons/Category", () => {
+jest.mock("@/components/auction/Category", () => {
   return function MockAuctionCategory({
     selectedId,
     onSelect,
@@ -31,7 +31,7 @@ jest.mock("@/components/commons/Category", () => {
   };
 });
 
-jest.mock("@/components/commons/Search", () => {
+jest.mock("@/components/auction/Search", () => {
   return function MockAuctionSearch() {
     return <span data-testid="auction-search" />;
   };

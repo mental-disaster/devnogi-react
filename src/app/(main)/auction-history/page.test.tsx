@@ -11,7 +11,7 @@ jest.mock("@/lib/api/clients", () => ({
   clientAxios: jest.fn(),
 }));
 
-jest.mock("@/components/commons/FilterableListLayout", () => {
+jest.mock("@/components/auction/FilterableListLayout", () => {
   const MockFilterableListLayout = ({
     selectedCategory,
     setSelectedCategory,

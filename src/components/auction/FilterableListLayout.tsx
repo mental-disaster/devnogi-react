@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useEffect, useMemo } from "react";
-import AuctionCategory from "@/components/commons/Category";
-import AuctionSearch from "@/components/commons/Search";
+import AuctionCategory from "@/components/auction/Category";
+import AuctionSearch from "@/components/auction/Search";
 import { ItemCategory, itemCategories } from "@/data/item-category";
 
 export default function FilterableListLayout({

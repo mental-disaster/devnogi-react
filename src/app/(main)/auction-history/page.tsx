@@ -1,17 +1,28 @@
 "use client";
 
-import CategoryLayout from "@/components/commons/FilterableListLayout";
-import FloatingButton from "@/components/commons/FloatingButton";
-import PageTitle from "@/components/commons/PageTitle";
+import CategoryLayout from "@/components/auction/FilterableListLayout";
+import OptionsFloatingButton from "@/components/auction/OptionsFloatingButton";
+import PageTitle from "@/components/auction/PageTitle";
 import AuctionHistoryList from "@/components/page/auction-history/List";
 import { clientAxios } from "@/lib/api/clients";
 import { AUCTION_HISTORY_ENDPOINT } from "@/lib/api/constants";
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
 
+export interface ItemOption {
+  optionType: string;
+  optionSubType: string;
+  optionValue: string;
+  optionValue2: string;
+  optionDesc: string;
+}
+
 export default function Page() {
   const [itemName, setItemName] = useState<string>("");
   const [itemCategory, setItemCategory] = useState<string>("all");
+  const [itemOptions, setItemOptions] = useState<Record<string, ItemOption>>(
+    {},
+  );
 
   const getAuctionHistory = async () => {
     const response = await clientAxios(AUCTION_HISTORY_ENDPOINT, {
@@ -47,7 +58,10 @@ export default function Page() {
         <AuctionHistoryList auctionHistoryList={auctionHistory} />
       </CategoryLayout>
 
-      <FloatingButton />
+      <OptionsFloatingButton
+        itemOptions={itemOptions}
+        setItemOptions={setItemOptions}
+      />
     </div>
   );
 }
